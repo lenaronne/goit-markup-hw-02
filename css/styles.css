@@ -51,7 +51,7 @@ font-style: normal;
     color: #434455;
 }
 .address-link:hover,
-.address-focus {
+.address-link:focus {
     color: #404bbf;
 }
 .main-title {
@@ -62,7 +62,8 @@ font-style: normal;
     text-align: center;
     color: #fff;
 }
-.title-btn {
+.title-btn {  
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -75,11 +76,9 @@ font-style: normal;
 }
 .section-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
     color: #2e2f42;
 }
 .team-section {
@@ -104,7 +103,7 @@ font-style: normal;
     letter-spacing: 0.02;
     color: #434455;
 }
-.team-name-list {
+.team-list-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -123,7 +122,7 @@ font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .portfolio-info {
@@ -136,7 +135,7 @@ font-style: normal;
     background-color: #2e2f42;
 }
 .whole-footer {
-    background-color: #F4F4FD;
+    background-color: #2e2f42;
 }
 .logo .footer-logo {
     color: #F4F4FD;
